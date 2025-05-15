@@ -1,11 +1,79 @@
-.py[cod]
+# Cached files
 __pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Tools
 .mypy_cache/
-.pytest_cache/
 .ruff_cache/
-.venv
-.env
 .fmtrc
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Build artifacts
+.Python
 build/
+develop-eggs/
 dist/
-*.egg-info
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Temporary files
+*~
+*.swp
+*.swo
+*.tmp
+*.temp
+*.bak
+*.old
+
+# Testing
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/

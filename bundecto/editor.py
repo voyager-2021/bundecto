@@ -2,7 +2,7 @@ import curses
 import os
 import signal
 
-VERSION = "1.0"  # X.Y scheme
+VERSION = "1.1"  # X.Y scheme
 
 
 class BundectoApp:
